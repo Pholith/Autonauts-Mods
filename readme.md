@@ -33,7 +33,6 @@ If you have some problems, suggestions etc with my mods you can ask me and see m
 https://discord.gg/cmZUWYT
 
 # Special thanks
-To [@pardeike](https://github.com/pardeike), creator of [Harmony](https://github.com/pardeike/Harmony), the library that made oni modding possible.
-To [@Cairath](https://github.com/Cairath), author of [Some mods](https://github.com/Cairath/ONI-Mods) on Oxygen Not Included, I learned a lot thanks of her mods.
-To [@JohnGames](https://github.com/JohnGames), author of [Autonauts-Mod-Manager](https://github.com/JohnGames/autonauts-mod-manager) which facilitates the management of mods on Autonauts.
-
+To [@pardeike](https://github.com/pardeike), creator of [Harmony](https://github.com/pardeike/Harmony), the library that made oni modding possible.  
+To [@Cairath](https://github.com/Cairath), author of [Some mods](https://github.com/Cairath/ONI-Mods) on Oxygen Not Included, I learned a lot thanks of her mods.  
+To [@JohnGames](https://github.com/JohnGames), author of [Autonauts-Mod-Manager](https://github.com/JohnGames/autonauts-mod-manager) which facilitates the management of mods on Autonauts.  
