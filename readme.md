@@ -1,18 +1,22 @@
 
+
 # Pholith's Mods for Autonauts
 
 # My Steam Page
 There will be more details on my mods when Antonauts will use the Steam workshop.
 
 ## List of mods
-| **Name**         | **Description**                         | **Preview**                        |
-| :----------------| :---------------------------------------:-------:						      |
-| Super Speed      | Meka the player super fast !            |![image](/src/SuperSpeed/screen.png)|
+
+
+| **Name**       | **Description**                  | **Preview**                     |
+| -------------- | -------------------------------- |-------------------------------- |
+| Super Speed    | Meka the player super fast !  |![image](/src/SuperSpeed/screen.png)|
+
 
 
 ## Installation Instructions
 
-### Manually (Using the [Mod Manager](https://github.com/JohnGames/autonauts-mod-manager)
+### Manually (Using the [Mod Manager](https://github.com/JohnGames/autonauts-mod-manager) )
 To download the mods, you need to click on "Clone or download" and "Download ZIP".
 Follow the installations instructions of the Mod manager.
 

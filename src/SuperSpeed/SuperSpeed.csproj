@@ -83,11 +83,20 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>REM rmdir /Q/S "C:\Users\Vincent Buisset\Documents\Klei\OxygenNotIncluded\mods\dev\$(ProjectName)"
+    <PostBuildEvent>echo ==
+cd ..
+echo Executing postbuild commands on ... %25cd%25
+echo Packaging... $(TargetDir)../$(ProjectName).zip
+"C:\Program Files\WinRAR\WinRAR.exe" a -afzip "$(TargetDir)../$(ProjectName).zip" "$(TargetDir)/../$(ProjectName)/"*
 
+echo Deleting ... $(TargetDir)..\$(ProjectName)
+rd /q /s "$(TargetDir)..\$(ProjectName)"
+
+
+REM rmdir /Q /S "C:\Users\Vincent Buisset\Documents\Klei\OxygenNotIncluded\mods\dev\$(ProjectName)"
 REM xcopy "$(TargetDir.TrimEnd('\'))" "C:\Users\Vincent Buisset\Documents\Klei\OxygenNotIncluded\mods\dev\$(ProjectName)" /E /I /Q</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>rmdir /Q /S $(TargetDir)</PreBuildEvent>
+    <PreBuildEvent>rmdir /Q /S $(OutDir)</PreBuildEvent>
   </PropertyGroup>
 </Project>
