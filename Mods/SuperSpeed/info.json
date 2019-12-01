@@ -1,0 +1,11 @@
+﻿{
+  "Id": "SuperSpeed",
+  "DisplayName": "SuperSpeed",
+  "Author": "Pholith",
+  "Version": "1.0.0",
+  "GameVersion": "128.5",
+  "AssemblyName": "SuperSpeed.dll",
+  "EntryMethod": "SuperSpeed.Main.Load",
+  "HomePage": "",
+  "Repository": ""
+}
