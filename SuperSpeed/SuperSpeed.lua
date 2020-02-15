@@ -1,13 +1,11 @@
 function SteamDetails() 
-    ModBase.SetSteamWorkshopDetails("MyFirstMod", "Description", {"tag1", "tag2"}, "ThisIsTheLogo.png")
+    ModBase.SetSteamWorkshopDetails("SuperSpeed", "Your player is now super fast", {"speed", "super"}, "SuperSpeed.png")
 end
 -- Used near exclusively for Steam Workshop and Mod information
-function OnLoad()
-    print("test")
 
-end
 
 function BeforeLoad()
+    ModVariable.SetVariableForObjectAsFloat("FarmerPlayer", "BaseDelay", -2)
 
 end
 -- Initial load function by game
@@ -18,8 +16,6 @@ end
 -- Once game has loaded key functionality this is called.
 
 function OnUpdate()
-
-    ModVariable.SetVariableForObjectAsFloat("FarmerPlayer", "SpeedScale", 5)
 
 end
 -- Called every frame
