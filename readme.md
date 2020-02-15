@@ -10,7 +10,7 @@ There will be more details on my mods when Antonauts will use the Steam workshop
 
 | **Name**       | **Description**                  | **Preview**                     |
 | -------------- | -------------------------------- |-------------------------------- |
-| Super Speed    | Make the player super fast !  |![image](/src/SuperSpeed/textures/SuperSpeed.png)|
+| Super Speed    | Make the player super fast !  |![image](/SuperSpeed/textures/SuperSpeed.png)|
 
 
 ## Installation Instructions
